@@ -3,3 +3,8 @@ packages:
     actions:
       - name: hello
         runtime: 'python:default'
+
+  - name: sample
+    actions:
+      - name: hellow
+        runtime: 'python:default'
