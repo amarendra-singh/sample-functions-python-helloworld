@@ -6,5 +6,5 @@ packages:
 
   - name: sample
     actions:
-      - name: hellow
+      - name: test
         runtime: 'python:default'
