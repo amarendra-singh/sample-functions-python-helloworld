@@ -1,10 +1,20 @@
 packages:
-  - name: sample
+  - name: joke
+    actions:
+      - name: joke
+        runtime: 'python:default'
+
+  - name: joke
     actions:
       - name: hello
         runtime: 'python:default'
 
-  - name: sample
+  - name: offer_order
     actions:
-      - name: test
+      - name: product
+        runtime: 'python:default'
+
+  - name: offer_order
+    actions:
+      - name: partner
         runtime: 'python:default'

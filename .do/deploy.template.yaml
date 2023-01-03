@@ -5,9 +5,9 @@ functions:
 - github:
     branch: master
     deploy_on_push: true
-    repo: digitalocean/sample-functions-python-helloworld
-  name: py-api
+    repo: daphne-solutions/offer_order
+  name: jokes-api
   routes:
   - path: /
   source_dir: /
-name: python-helloworld
+name: jokes
