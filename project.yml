@@ -8,13 +8,3 @@ packages:
     actions:
       - name: hello
         runtime: 'python:default'
-
-  - name: offer_order
-    actions:
-      - name: product
-        runtime: 'python:default'
-
-  - name: offer_order
-    actions:
-      - name: partner
-        runtime: 'python:default'
