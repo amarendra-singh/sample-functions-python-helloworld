@@ -5,7 +5,7 @@ functions:
 - github:
     branch: master
     deploy_on_push: true
-    repo: daphne-solutions/offer_order
+    repo: amarendra-singh/sample-functions-python-helloworld
   name: jokes-api
   routes:
   - path: /
