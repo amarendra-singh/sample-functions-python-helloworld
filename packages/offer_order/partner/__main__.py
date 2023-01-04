@@ -30,5 +30,6 @@ def create_product(product: Product):
 def get_product(id: str):
     # Code to retrieve the product
     #return product
+    
     return {"id": id}
 
